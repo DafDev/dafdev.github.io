@@ -1,0 +1,177 @@
+body {
+    background-color: black;
+    font-family: helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    margin: 0 0;
+    opacity: 0.7;
+}
+
+/*Header nav bar*/
+
+div {
+    display: block;
+}
+
+.header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+}
+
+img.logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 50px;
+}
+
+ul {
+    display: block;
+    list-style: none;
+}
+
+.menu {
+    float: right;
+    font-weight: bold;
+}
+
+.item,
+.nav ul li {
+    display: inline;
+    text-decoration: underline;
+    padding: 0 1px;
+    margin-right: 10px;
+}
+
+.nav a {
+    color: seashell;
+}
+
+/*section mission*/
+
+.main {
+    background-image: url(/Ressources/images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.banner {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    opacity: 0.8;
+  }
+
+  /*section Featured*/
+
+.banner2 {
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+}
+
+.tea-foto {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.foto-1 img,
+.foto-2 img,
+.foto-3 img,
+.foto-4 img,
+.foto-5 img {
+    height: 200px;
+    width: 300px;
+    margin: 0 10px;
+}
+
+.foto-1 h4,
+.foto-2 h4,
+.foto-3 h4,
+.foto-4 h4,
+.foto-5 h4 {
+    margin-top: 10px;
+}
+
+/*section location*/
+
+.box-location {
+    background-image: url(../Ressources/images/img-locations-background.jpg);
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.title {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+
+
+.box-1,
+.box-2,
+.box-3 {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin-left: 40px auto;
+    margin: auto;
+    padding-bottom: 20px;
+    align-items: center;
+    opacity: 0.8;
+}
+
+/*Footer*/
+
+.contact {
+    height: 200px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 0;
+    text-align: center;
+}
+
+.copy {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+   
+
